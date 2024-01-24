@@ -5,7 +5,9 @@ function Navbar() {
     return (
       <div className="navbar">
         <div className="logo">
-          <img src="./black-hat.svg" alt="logo" />
+          <a href="#">
+            <img src="./black-logo.svg" alt="logo" />
+          </a>
         </div>
         <ul className="nav-menu">
           <li>
